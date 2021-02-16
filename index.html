@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	td {
+  		border: 2px solid black;
+	}
+	</style>
+	<script type="text/javascript" src="js/tictactoe.js"></script>
+</head>
+<body>
+	<center>
+		<h2>TIC TAC TOE</h2>
+		<p id="turn">TURN: PLAYER 0</p>
+		<table>
+		<tr>
+			<td id="S_I" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_S_I" src="images/white.png" alt="" height=100 width=100></td>
+			<td id="S_C" widht="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_S_C" src="images/white.png" alt="" height=100 width=100></td>
+			<td id="S_D" widht="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_S_D" src="images/white.png" alt="" height=100 width=100></td>
+		</tr>
+		<tr>
+			<td id="C_I" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_C_I" src="images/white.png" alt="" height=100 width=100></td>
+			<td id="C_C" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_C_C" src="images/white.png" alt="" height=100 width=100></td>
+			<td id="C_D" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_C_D" src="images/white.png" alt="" height=100 width=100></td>
+		</tr>
+		<tr>
+			<td id="I_I" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_I_I" src="images/white.png" alt="" height=100 width=100></td>
+			<td id="I_C" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_I_C" src="images/white.png" alt="" height=100 width=100></td>
+			<td id="I_D" width="100" height="100" align="center" onclick="tdclick(id)"><img id="IMG_I_D" src="images/white.png" alt="" height=100 width=100></td>
+		</tr>
+	</table>
+	<p></p>
+	<a href=""><button>RESTART</button></a>
+	<p></p>
+	<h3 style="color: Red">PLAYER 0 -> O</h3>
+	<h3 style="color: Black">PLAYER 1 -> X</h3>
+	</center>
+</body>
+</html>
